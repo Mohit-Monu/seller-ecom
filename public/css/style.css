@@ -1,0 +1,49 @@
+.box1 {
+    border: 2px solid red;
+    height: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box2 {
+    margin: auto;
+    width: 80%;
+}
+
+.head {
+    color: red;
+    text-align: center;
+    font-size: 60px;
+}
+
+label {
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input {
+    height: 35px;
+    font-size: 25px;
+    width: 400px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.bton {
+    height: 40px;
+    width: 70%;
+    font-size: 25px;
+}
+
+#boxx {
+    margin-bottom: 30px;
+}
+
+button {
+    height: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}

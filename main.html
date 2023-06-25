@@ -6,28 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seller E-com</title>
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
 
 <body>
-    <form id="form" action="" method="POST">
-        <h1>Selling Price</h1>
-        <input id="pricee" type="text" required placeholder=" Input your selling price">
-        <h1>Product Name</h1>
-        <input id="namee" type="text" required placeholder=" Input your Product name">
-        <input type="submit" value="Add Product">
-    </form>
-    <h1>Products</h1>
-    <div id="boxx">
-        <!-- <div>
-            <h2>20000 - Nickon Camera </h2>
-            <button>Delete Products</button>
-        </div> -->
+    <div class="box1">
+        <h1 class="head">Welcome Seller</h1>
+        <hr>
+        <br>
+        <center>
+            <div class="box2">
+                <form id="form" action="" method="POST">
+                    <label>
+                        Selling Price-
+                    </label>
+                    <input id="pricee" type="number" required placeholder=" Input your selling price">
+                    <br>
+                    <label>
+                        Product Name-
+                    </label>
+                    <input id="namee" type="text" required placeholder=" Input your Product name">
+                    <br>
+                    <input class="bton" type="submit" value="Add Product">
+                </form>
+            </div>
+        </center>
+        <hr>
+        <h1 class="head">Products</h1>
+        <hr>
+        <div id="boxx">
+            <!-- <div>
+                <label>20000 - Nickon Camera </label>
+                <button>Delete Products</button>
+            </div> -->
+        </div>
+        <label>
+            Total Value Worth of Products: Rs- <b id="totall"></b>
+            <hr>
+        </label>
     </div>
-    <h1><b>Total Value Worth of Products: Rs</b>
-        <h1 id="totall"></h1>
-    </h1>
+
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script src="./app.js2"></script>
+<script src="./app2.js"></script>
 
 </html>
